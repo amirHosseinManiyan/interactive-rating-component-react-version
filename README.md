@@ -1,16 +1,63 @@
-# React + Vite
+# Interactive Rating Component — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive interactive rating component built with React. Users can select a rating from 1 to 5 and submit their feedback to see a confirmation screen displaying their selected rating.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Select a rating from 1 to 5.
+- Submit the selected rating and display a thank-you message.
+- Interactive rating selection with visual feedback.
+- Responsive layout for mobile and desktop screens.
+- Component-based structure using React.
+- Styled with CSS.
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- CSS
+- Vite
 
-## Expanding the Oxlint configuration
+## What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Building reusable UI components with React.
+- Managing component state using React Hooks.
+- Handling user interactions with event handlers.
+- Conditionally rendering UI based on application state.
+- Creating responsive layouts with CSS.
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd YOUR_PROJECT_FOLDER
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Live Demo
+
+[View Live Demo](https://amirhosseinmaniyan.github.io/interactive-rating-component-react-version/)
+
+## Author
+
+GitHub: [YOUR_GITHUB_USERNAME](https://github.com/amirHosseinManiyan)
